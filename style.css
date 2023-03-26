@@ -1,0 +1,74 @@
+body {
+    font-size: 93%;
+    color: #525252;
+    font-family: monospace;
+}
+
+
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+.center {
+  text-align: center;
+}
+
+
+
+
+/*love*/
+
+#love {
+  height:33px;
+  overflow:hidden;
+  text-transform: uppercase;
+  font-size: 12.8px;
+  font-weight: bold;
+  position: relative;
+}
+
+#love > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:47px;
+  margin-bottom:48px;
+  display:inline-block;
+}
+
+#love div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#love div div {
+  font: Cursive;
+  color: #00FFCD;
+}
+
+#love div:first-child div {
+  font: Cursive;
+  color: #CBFF00;
+}
+#love div:last-child div {
+  font: Cursive;
+  color: #FF9500;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
